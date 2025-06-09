@@ -28,7 +28,7 @@ function Sidebar() {
                             return(
                                 <div onClick={()=>laodPrompt(item)} className="recent-entry">
                                     <img src={assets.message_icon} alt="" />
-                                    <p>{item.slice(0,18)}+...</p>
+                                    <p>{item.slice(0,18)} ...</p>
                                 </div>
                             )
                         })}
